@@ -8,7 +8,29 @@ services:
     environment:
       NODE_ENV: development
     ports:
-      - '3000:3000'
+      - '4000:3000'
     volumes:
       - ./server:/home/app/
       - /home/app/node_modules
+
+  react-slingshot:
+    build: ./react-slingshot
+    command: bash -c "yarn install && npm start"
+    environment:
+      NODE_ENV: development
+    ports:
+      - '3000:3000'
+      - '3001:3001'
+    volumes:
+      - ./react-slingshot/.cache:/home/app/.cache
+      - ./react-slingshot/.config:/home/app/.config
+      - ./react-slingshot/.node-gyp:/home/app/.node-gyp
+      - ./react-slingshot/.yarn:/home/app/.yarn
+      - ./react-slingshot/node_modules:/home/app/node_modules
+     #- /home/app/node_modules
+    volumes_from:
+      - container:react-slingshot-sync:rw
+
+volumes:
+  react-slingshot-sync:
+    external: true

@@ -27,3 +27,8 @@ Provides a containerized development environment with the following features:
 1. Fix react
 1. Figure out how to run NOT as root, yet also get volume mount. Consider using
    [volume containers](https://docs.docker.com/engine/tutorials/dockervolumes/).
+   
+## Docker Sync
+
+1. sudo gem install docker-sync
+1. brew install fswatch

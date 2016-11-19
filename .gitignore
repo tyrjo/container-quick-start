@@ -2,3 +2,7 @@ server/.*
 .idea
 !.dockerignore
 node_modules
+.cache
+.config
+.node-gyp
+.yarn

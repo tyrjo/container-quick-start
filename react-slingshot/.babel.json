@@ -1,0 +1,1529 @@
+{
+  "{\"filename\":\"/home/app/tools/startMessage.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"transforms\":[{\"transform\":\"/home/app/node_modules/react-transform-hmr/lib/index.js\",\"imports\":[\"react\"],\"locals\":[\"module\"]},{\"transform\":\"/home/app/node_modules/react-transform-catch-errors/lib/index.js\",\"imports\":[\"react\",\"/home/app/node_modules/redbox-react/lib/index.js\"]}]}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/tools\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.17.0:development": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "./chalkConfig",
+            "imported": [
+              "chalkSuccess"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "chalkSuccess",
+                "local": "chalkSuccess"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/tools/startMessage.js",
+      "filenameRelative": "/home/app/tools/startMessage.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "transforms": [
+              {
+                "transform": "/home/app/node_modules/react-transform-hmr/lib/index.js",
+                "imports": [
+                  "react"
+                ],
+                "locals": [
+                  "module"
+                ]
+              },
+              {
+                "transform": "/home/app/node_modules/react-transform-catch-errors/lib/index.js",
+                "imports": [
+                  "react",
+                  "/home/app/node_modules/redbox-react/lib/index.js"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "startMessage.js",
+      "sourceFileName": "startMessage.js",
+      "sourceRoot": "/home/app/tools",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/tools",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "startMessage"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _chalkConfig = require('./chalkConfig');\n\n/* eslint-disable no-console */\n\nconsole.log((0, _chalkConfig.chalkSuccess)('Starting app in dev mode...'));\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0YXJ0TWVzc2FnZS5qcyJdLCJuYW1lcyI6WyJjb25zb2xlIiwibG9nIl0sIm1hcHBpbmdzIjoiOztBQUFBOztBQUVBOztBQUVBQSxRQUFRQyxHQUFSLENBQVksK0JBQWEsNkJBQWIsQ0FBWiIsImZpbGUiOiJzdGFydE1lc3NhZ2UuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3Rvb2xzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtjaGFsa1N1Y2Nlc3N9IGZyb20gJy4vY2hhbGtDb25maWcnO1xuXG4vKiBlc2xpbnQtZGlzYWJsZSBuby1jb25zb2xlICovXG5cbmNvbnNvbGUubG9nKGNoYWxrU3VjY2VzcygnU3RhcnRpbmcgYXBwIGluIGRldiBtb2RlLi4uJykpO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "startMessage.js"
+      ],
+      "names": [
+        "console",
+        "log"
+      ],
+      "mappings": ";;AAAA;;AAEA;;AAEAA,QAAQC,GAAR,CAAY,+BAAa,6BAAb,CAAZ",
+      "file": "startMessage.js",
+      "sourceRoot": "/home/app/tools",
+      "sourcesContent": [
+        "import {chalkSuccess} from './chalkConfig';\n\n/* eslint-disable no-console */\n\nconsole.log(chalkSuccess('Starting app in dev mode...'));\n"
+      ]
+    },
+    "mtime": 1479581235000
+  },
+  "{\"filename\":\"/home/app/tools/chalkConfig.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"transforms\":[{\"transform\":\"/home/app/node_modules/react-transform-hmr/lib/index.js\",\"imports\":[\"react\"],\"locals\":[\"module\"]},{\"transform\":\"/home/app/node_modules/react-transform-catch-errors/lib/index.js\",\"imports\":[\"react\",\"/home/app/node_modules/redbox-react/lib/index.js\"]}]}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/tools\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.17.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "chalk",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "chalk"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "chalkError",
+            "chalkSuccess",
+            "chalkWarning",
+            "chalkProcessing"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "chalkError",
+              "exported": "chalkError"
+            },
+            {
+              "kind": "local",
+              "local": "chalkSuccess",
+              "exported": "chalkSuccess"
+            },
+            {
+              "kind": "local",
+              "local": "chalkWarning",
+              "exported": "chalkWarning"
+            },
+            {
+              "kind": "local",
+              "local": "chalkProcessing",
+              "exported": "chalkProcessing"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/tools/chalkConfig.js",
+      "filenameRelative": "/home/app/tools/chalkConfig.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "transforms": [
+              {
+                "transform": "/home/app/node_modules/react-transform-hmr/lib/index.js",
+                "imports": [
+                  "react"
+                ],
+                "locals": [
+                  "module"
+                ]
+              },
+              {
+                "transform": "/home/app/node_modules/react-transform-catch-errors/lib/index.js",
+                "imports": [
+                  "react",
+                  "/home/app/node_modules/redbox-react/lib/index.js"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "chalkConfig.js",
+      "sourceFileName": "chalkConfig.js",
+      "sourceRoot": "/home/app/tools",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/tools",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "chalkConfig"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.chalkProcessing = exports.chalkWarning = exports.chalkSuccess = exports.chalkError = undefined;\n\nvar _chalk = require('chalk');\n\nvar _chalk2 = _interopRequireDefault(_chalk);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar chalkError = exports.chalkError = _chalk2.default.red; // Centralized configuration for chalk, which is used to add color to console.log statements.\nvar chalkSuccess = exports.chalkSuccess = _chalk2.default.green;\nvar chalkWarning = exports.chalkWarning = _chalk2.default.yellow;\nvar chalkProcessing = exports.chalkProcessing = _chalk2.default.blue;\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYWxrQ29uZmlnLmpzIl0sIm5hbWVzIjpbImNoYWxrRXJyb3IiLCJyZWQiLCJjaGFsa1N1Y2Nlc3MiLCJncmVlbiIsImNoYWxrV2FybmluZyIsInllbGxvdyIsImNoYWxrUHJvY2Vzc2luZyIsImJsdWUiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFDQTs7Ozs7O0FBQ08sSUFBTUEsa0NBQWEsZ0JBQU1DLEdBQXpCLEMsQ0FGUDtBQUdPLElBQU1DLHNDQUFlLGdCQUFNQyxLQUEzQjtBQUNBLElBQU1DLHNDQUFlLGdCQUFNQyxNQUEzQjtBQUNBLElBQU1DLDRDQUFrQixnQkFBTUMsSUFBOUIiLCJmaWxlIjoiY2hhbGtDb25maWcuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwL3Rvb2xzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gQ2VudHJhbGl6ZWQgY29uZmlndXJhdGlvbiBmb3IgY2hhbGssIHdoaWNoIGlzIHVzZWQgdG8gYWRkIGNvbG9yIHRvIGNvbnNvbGUubG9nIHN0YXRlbWVudHMuXG5pbXBvcnQgY2hhbGsgZnJvbSAnY2hhbGsnO1xuZXhwb3J0IGNvbnN0IGNoYWxrRXJyb3IgPSBjaGFsay5yZWQ7XG5leHBvcnQgY29uc3QgY2hhbGtTdWNjZXNzID0gY2hhbGsuZ3JlZW47XG5leHBvcnQgY29uc3QgY2hhbGtXYXJuaW5nID0gY2hhbGsueWVsbG93O1xuZXhwb3J0IGNvbnN0IGNoYWxrUHJvY2Vzc2luZyA9IGNoYWxrLmJsdWU7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "chalkConfig.js"
+      ],
+      "names": [
+        "chalkError",
+        "red",
+        "chalkSuccess",
+        "green",
+        "chalkWarning",
+        "yellow",
+        "chalkProcessing",
+        "blue"
+      ],
+      "mappings": ";;;;;;;AACA;;;;;;AACO,IAAMA,kCAAa,gBAAMC,GAAzB,C,CAFP;AAGO,IAAMC,sCAAe,gBAAMC,KAA3B;AACA,IAAMC,sCAAe,gBAAMC,MAA3B;AACA,IAAMC,4CAAkB,gBAAMC,IAA9B",
+      "file": "chalkConfig.js",
+      "sourceRoot": "/home/app/tools",
+      "sourcesContent": [
+        "// Centralized configuration for chalk, which is used to add color to console.log statements.\nimport chalk from 'chalk';\nexport const chalkError = chalk.red;\nexport const chalkSuccess = chalk.green;\nexport const chalkWarning = chalk.yellow;\nexport const chalkProcessing = chalk.blue;\n"
+      ]
+    },
+    "mtime": 1479581235000
+  },
+  "{\"filename\":\"/home/app/tools/srcServer.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"transforms\":[{\"transform\":\"/home/app/node_modules/react-transform-hmr/lib/index.js\",\"imports\":[\"react\"],\"locals\":[\"module\"]},{\"transform\":\"/home/app/node_modules/react-transform-catch-errors/lib/index.js\",\"imports\":[\"react\",\"/home/app/node_modules/redbox-react/lib/index.js\"]}]}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/tools\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.17.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "browser-sync",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "browserSync"
+              }
+            ]
+          },
+          {
+            "source": "connect-history-api-fallback",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "historyApiFallback"
+              }
+            ]
+          },
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "webpack-dev-middleware",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpackDevMiddleware"
+              }
+            ]
+          },
+          {
+            "source": "webpack-hot-middleware",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpackHotMiddleware"
+              }
+            ]
+          },
+          {
+            "source": "../webpack.config.dev",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "config"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/tools/srcServer.js",
+      "filenameRelative": "/home/app/tools/srcServer.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "transforms": [
+              {
+                "transform": "/home/app/node_modules/react-transform-hmr/lib/index.js",
+                "imports": [
+                  "react"
+                ],
+                "locals": [
+                  "module"
+                ]
+              },
+              {
+                "transform": "/home/app/node_modules/react-transform-catch-errors/lib/index.js",
+                "imports": [
+                  "react",
+                  "/home/app/node_modules/redbox-react/lib/index.js"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "srcServer.js",
+      "sourceFileName": "srcServer.js",
+      "sourceRoot": "/home/app/tools",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/tools",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "srcServer"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _browserSync = require('browser-sync');\n\nvar _browserSync2 = _interopRequireDefault(_browserSync);\n\nvar _connectHistoryApiFallback = require('connect-history-api-fallback');\n\nvar _connectHistoryApiFallback2 = _interopRequireDefault(_connectHistoryApiFallback);\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _webpackDevMiddleware = require('webpack-dev-middleware');\n\nvar _webpackDevMiddleware2 = _interopRequireDefault(_webpackDevMiddleware);\n\nvar _webpackHotMiddleware = require('webpack-hot-middleware');\n\nvar _webpackHotMiddleware2 = _interopRequireDefault(_webpackHotMiddleware);\n\nvar _webpackConfig = require('../webpack.config.dev');\n\nvar _webpackConfig2 = _interopRequireDefault(_webpackConfig);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// This file configures the development web server\n// which supports hot reloading and synchronized testing.\n\n// Require Browsersync along with webpack and middleware for it\nvar bundler = (0, _webpack2.default)(_webpackConfig2.default);\n\n// Run Browsersync and use middleware for Hot Module Replacement\n\n// Required for react-router browserHistory\n// see https://github.com/BrowserSync/browser-sync/issues/204#issuecomment-102623643\n(0, _browserSync2.default)({\n  port: 3000,\n  ui: {\n    port: 3001\n  },\n  server: {\n    baseDir: 'src',\n\n    middleware: [(0, _connectHistoryApiFallback2.default)(), (0, _webpackDevMiddleware2.default)(bundler, {\n      // Dev middleware can't access config, so we provide publicPath\n      publicPath: _webpackConfig2.default.output.publicPath,\n\n      // These settings suppress noisy webpack output so only errors are displayed to the console.\n      noInfo: false,\n      quiet: false,\n      stats: {\n        assets: false,\n        colors: true,\n        version: false,\n        hash: false,\n        timings: false,\n        chunks: false,\n        chunkModules: false\n      }\n\n    }),\n\n    // bundler should be the same as above\n    (0, _webpackHotMiddleware2.default)(bundler)]\n  },\n\n  // no need to watch '*.js' here, webpack will take care of it for us,\n  // including full page reloads if HMR won't work\n  files: ['src/*.html']\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyY1NlcnZlci5qcyJdLCJuYW1lcyI6WyJidW5kbGVyIiwicG9ydCIsInVpIiwic2VydmVyIiwiYmFzZURpciIsIm1pZGRsZXdhcmUiLCJwdWJsaWNQYXRoIiwib3V0cHV0Iiwibm9JbmZvIiwicXVpZXQiLCJzdGF0cyIsImFzc2V0cyIsImNvbG9ycyIsInZlcnNpb24iLCJoYXNoIiwidGltaW5ncyIsImNodW5rcyIsImNodW5rTW9kdWxlcyIsImZpbGVzIl0sIm1hcHBpbmdzIjoiOztBQUlBOzs7O0FBR0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBWEE7QUFDQTs7QUFFQTtBQVVBLElBQU1BLFVBQVUsK0NBQWhCOztBQUVBOztBQVZBO0FBQ0E7QUFVQSwyQkFBWTtBQUNWQyxRQUFNLElBREk7QUFFVkMsTUFBSTtBQUNGRCxVQUFNO0FBREosR0FGTTtBQUtWRSxVQUFRO0FBQ05DLGFBQVMsS0FESDs7QUFHTkMsZ0JBQVksQ0FDViwwQ0FEVSxFQUdWLG9DQUFxQkwsT0FBckIsRUFBOEI7QUFDNUI7QUFDQU0sa0JBQVksd0JBQU9DLE1BQVAsQ0FBY0QsVUFGRTs7QUFJNUI7QUFDQUUsY0FBUSxLQUxvQjtBQU01QkMsYUFBTyxLQU5xQjtBQU81QkMsYUFBTztBQUNMQyxnQkFBUSxLQURIO0FBRUxDLGdCQUFRLElBRkg7QUFHTEMsaUJBQVMsS0FISjtBQUlMQyxjQUFNLEtBSkQ7QUFLTEMsaUJBQVMsS0FMSjtBQU1MQyxnQkFBUSxLQU5IO0FBT0xDLHNCQUFjO0FBUFQ7O0FBUHFCLEtBQTlCLENBSFU7O0FBd0JWO0FBQ0Esd0NBQXFCakIsT0FBckIsQ0F6QlU7QUFITixHQUxFOztBQXFDVjtBQUNBO0FBQ0FrQixTQUFPLENBQ0wsWUFESztBQXZDRyxDQUFaIiwiZmlsZSI6InNyY1NlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9hcHAvdG9vbHMiLCJzb3VyY2VzQ29udGVudCI6WyIvLyBUaGlzIGZpbGUgY29uZmlndXJlcyB0aGUgZGV2ZWxvcG1lbnQgd2ViIHNlcnZlclxuLy8gd2hpY2ggc3VwcG9ydHMgaG90IHJlbG9hZGluZyBhbmQgc3luY2hyb25pemVkIHRlc3RpbmcuXG5cbi8vIFJlcXVpcmUgQnJvd3NlcnN5bmMgYWxvbmcgd2l0aCB3ZWJwYWNrIGFuZCBtaWRkbGV3YXJlIGZvciBpdFxuaW1wb3J0IGJyb3dzZXJTeW5jIGZyb20gJ2Jyb3dzZXItc3luYyc7XG4vLyBSZXF1aXJlZCBmb3IgcmVhY3Qtcm91dGVyIGJyb3dzZXJIaXN0b3J5XG4vLyBzZWUgaHR0cHM6Ly9naXRodWIuY29tL0Jyb3dzZXJTeW5jL2Jyb3dzZXItc3luYy9pc3N1ZXMvMjA0I2lzc3VlY29tbWVudC0xMDI2MjM2NDNcbmltcG9ydCBoaXN0b3J5QXBpRmFsbGJhY2sgZnJvbSAnY29ubmVjdC1oaXN0b3J5LWFwaS1mYWxsYmFjayc7XG5pbXBvcnQgd2VicGFjayBmcm9tICd3ZWJwYWNrJztcbmltcG9ydCB3ZWJwYWNrRGV2TWlkZGxld2FyZSBmcm9tICd3ZWJwYWNrLWRldi1taWRkbGV3YXJlJztcbmltcG9ydCB3ZWJwYWNrSG90TWlkZGxld2FyZSBmcm9tICd3ZWJwYWNrLWhvdC1taWRkbGV3YXJlJztcbmltcG9ydCBjb25maWcgZnJvbSAnLi4vd2VicGFjay5jb25maWcuZGV2JztcblxuY29uc3QgYnVuZGxlciA9IHdlYnBhY2soY29uZmlnKTtcblxuLy8gUnVuIEJyb3dzZXJzeW5jIGFuZCB1c2UgbWlkZGxld2FyZSBmb3IgSG90IE1vZHVsZSBSZXBsYWNlbWVudFxuYnJvd3NlclN5bmMoe1xuICBwb3J0OiAzMDAwLFxuICB1aToge1xuICAgIHBvcnQ6IDMwMDFcbiAgfSxcbiAgc2VydmVyOiB7XG4gICAgYmFzZURpcjogJ3NyYycsXG5cbiAgICBtaWRkbGV3YXJlOiBbXG4gICAgICBoaXN0b3J5QXBpRmFsbGJhY2soKSxcblxuICAgICAgd2VicGFja0Rldk1pZGRsZXdhcmUoYnVuZGxlciwge1xuICAgICAgICAvLyBEZXYgbWlkZGxld2FyZSBjYW4ndCBhY2Nlc3MgY29uZmlnLCBzbyB3ZSBwcm92aWRlIHB1YmxpY1BhdGhcbiAgICAgICAgcHVibGljUGF0aDogY29uZmlnLm91dHB1dC5wdWJsaWNQYXRoLFxuXG4gICAgICAgIC8vIFRoZXNlIHNldHRpbmdzIHN1cHByZXNzIG5vaXN5IHdlYnBhY2sgb3V0cHV0IHNvIG9ubHkgZXJyb3JzIGFyZSBkaXNwbGF5ZWQgdG8gdGhlIGNvbnNvbGUuXG4gICAgICAgIG5vSW5mbzogZmFsc2UsXG4gICAgICAgIHF1aWV0OiBmYWxzZSxcbiAgICAgICAgc3RhdHM6IHtcbiAgICAgICAgICBhc3NldHM6IGZhbHNlLFxuICAgICAgICAgIGNvbG9yczogdHJ1ZSxcbiAgICAgICAgICB2ZXJzaW9uOiBmYWxzZSxcbiAgICAgICAgICBoYXNoOiBmYWxzZSxcbiAgICAgICAgICB0aW1pbmdzOiBmYWxzZSxcbiAgICAgICAgICBjaHVua3M6IGZhbHNlLFxuICAgICAgICAgIGNodW5rTW9kdWxlczogZmFsc2VcbiAgICAgICAgfSxcblxuICAgICAgICAvLyBmb3Igb3RoZXIgc2V0dGluZ3Mgc2VlXG4gICAgICAgIC8vIGh0dHA6Ly93ZWJwYWNrLmdpdGh1Yi5pby9kb2NzL3dlYnBhY2stZGV2LW1pZGRsZXdhcmUuaHRtbFxuICAgICAgfSksXG5cbiAgICAgIC8vIGJ1bmRsZXIgc2hvdWxkIGJlIHRoZSBzYW1lIGFzIGFib3ZlXG4gICAgICB3ZWJwYWNrSG90TWlkZGxld2FyZShidW5kbGVyKVxuICAgIF1cbiAgfSxcblxuICAvLyBubyBuZWVkIHRvIHdhdGNoICcqLmpzJyBoZXJlLCB3ZWJwYWNrIHdpbGwgdGFrZSBjYXJlIG9mIGl0IGZvciB1cyxcbiAgLy8gaW5jbHVkaW5nIGZ1bGwgcGFnZSByZWxvYWRzIGlmIEhNUiB3b24ndCB3b3JrXG4gIGZpbGVzOiBbXG4gICAgJ3NyYy8qLmh0bWwnXG4gIF1cbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "srcServer.js"
+      ],
+      "names": [
+        "bundler",
+        "port",
+        "ui",
+        "server",
+        "baseDir",
+        "middleware",
+        "publicPath",
+        "output",
+        "noInfo",
+        "quiet",
+        "stats",
+        "assets",
+        "colors",
+        "version",
+        "hash",
+        "timings",
+        "chunks",
+        "chunkModules",
+        "files"
+      ],
+      "mappings": ";;AAIA;;;;AAGA;;;;AACA;;;;AACA;;;;AACA;;;;AACA;;;;;;AAXA;AACA;;AAEA;AAUA,IAAMA,UAAU,+CAAhB;;AAEA;;AAVA;AACA;AAUA,2BAAY;AACVC,QAAM,IADI;AAEVC,MAAI;AACFD,UAAM;AADJ,GAFM;AAKVE,UAAQ;AACNC,aAAS,KADH;;AAGNC,gBAAY,CACV,0CADU,EAGV,oCAAqBL,OAArB,EAA8B;AAC5B;AACAM,kBAAY,wBAAOC,MAAP,CAAcD,UAFE;;AAI5B;AACAE,cAAQ,KALoB;AAM5BC,aAAO,KANqB;AAO5BC,aAAO;AACLC,gBAAQ,KADH;AAELC,gBAAQ,IAFH;AAGLC,iBAAS,KAHJ;AAILC,cAAM,KAJD;AAKLC,iBAAS,KALJ;AAMLC,gBAAQ,KANH;AAOLC,sBAAc;AAPT;;AAPqB,KAA9B,CAHU;;AAwBV;AACA,wCAAqBjB,OAArB,CAzBU;AAHN,GALE;;AAqCV;AACA;AACAkB,SAAO,CACL,YADK;AAvCG,CAAZ",
+      "file": "srcServer.js",
+      "sourceRoot": "/home/app/tools",
+      "sourcesContent": [
+        "// This file configures the development web server\n// which supports hot reloading and synchronized testing.\n\n// Require Browsersync along with webpack and middleware for it\nimport browserSync from 'browser-sync';\n// Required for react-router browserHistory\n// see https://github.com/BrowserSync/browser-sync/issues/204#issuecomment-102623643\nimport historyApiFallback from 'connect-history-api-fallback';\nimport webpack from 'webpack';\nimport webpackDevMiddleware from 'webpack-dev-middleware';\nimport webpackHotMiddleware from 'webpack-hot-middleware';\nimport config from '../webpack.config.dev';\n\nconst bundler = webpack(config);\n\n// Run Browsersync and use middleware for Hot Module Replacement\nbrowserSync({\n  port: 3000,\n  ui: {\n    port: 3001\n  },\n  server: {\n    baseDir: 'src',\n\n    middleware: [\n      historyApiFallback(),\n\n      webpackDevMiddleware(bundler, {\n        // Dev middleware can't access config, so we provide publicPath\n        publicPath: config.output.publicPath,\n\n        // These settings suppress noisy webpack output so only errors are displayed to the console.\n        noInfo: false,\n        quiet: false,\n        stats: {\n          assets: false,\n          colors: true,\n          version: false,\n          hash: false,\n          timings: false,\n          chunks: false,\n          chunkModules: false\n        },\n\n        // for other settings see\n        // http://webpack.github.io/docs/webpack-dev-middleware.html\n      }),\n\n      // bundler should be the same as above\n      webpackHotMiddleware(bundler)\n    ]\n  },\n\n  // no need to watch '*.js' here, webpack will take care of it for us,\n  // including full page reloads if HMR won't work\n  files: [\n    'src/*.html'\n  ]\n});\n"
+      ]
+    },
+    "mtime": 1479581235000
+  },
+  "{\"filename\":\"/home/app/webpack.config.dev.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"transforms\":[{\"transform\":\"/home/app/node_modules/react-transform-hmr/lib/index.js\",\"imports\":[\"react\"],\"locals\":[\"module\"]},{\"transform\":\"/home/app/node_modules/react-transform-catch-errors/lib/index.js\",\"imports\":[\"react\",\"/home/app/node_modules/redbox-react/lib/index.js\"]}]}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.17.0:development": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "webpack",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "webpack"
+              }
+            ]
+          },
+          {
+            "source": "html-webpack-plugin",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "HtmlWebpackPlugin"
+              }
+            ]
+          },
+          {
+            "source": "autoprefixer",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "autoprefixer"
+              }
+            ]
+          },
+          {
+            "source": "path",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "path"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/webpack.config.dev.js",
+      "filenameRelative": "/home/app/webpack.config.dev.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "transforms": [
+              {
+                "transform": "/home/app/node_modules/react-transform-hmr/lib/index.js",
+                "imports": [
+                  "react"
+                ],
+                "locals": [
+                  "module"
+                ]
+              },
+              {
+                "transform": "/home/app/node_modules/react-transform-catch-errors/lib/index.js",
+                "imports": [
+                  "react",
+                  "/home/app/node_modules/redbox-react/lib/index.js"
+                ]
+              }
+            ]
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "webpack.config.dev.js",
+      "sourceFileName": "webpack.config.dev.js",
+      "sourceRoot": "/home/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "webpack.config.dev"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _webpack = require('webpack');\n\nvar _webpack2 = _interopRequireDefault(_webpack);\n\nvar _htmlWebpackPlugin = require('html-webpack-plugin');\n\nvar _htmlWebpackPlugin2 = _interopRequireDefault(_htmlWebpackPlugin);\n\nvar _autoprefixer = require('autoprefixer');\n\nvar _autoprefixer2 = _interopRequireDefault(_autoprefixer);\n\nvar _path = require('path');\n\nvar _path2 = _interopRequireDefault(_path);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = {\n  resolve: {\n    extensions: ['', '.js', '.jsx', '.json']\n  },\n  debug: true,\n  devtool: 'eval-source-map', // more info:https://webpack.github.io/docs/build-performance.html#sourcemaps and https://webpack.github.io/docs/configuration.html#devtool\n  noInfo: true, // set to false to see a list of every file being bundled.\n  entry: [\n  // must be first entry to properly set public path\n  './src/webpack-public-path', 'webpack-hot-middleware/client?reload=true', _path2.default.resolve(__dirname, 'src/index.js') // Defining path seems necessary for this to work consistently on Windows machines.\n  ],\n  target: 'web', // necessary per https://webpack.github.io/docs/testing.html#compile-and-test\n  output: {\n    path: _path2.default.resolve(__dirname, 'dist'), // Note: Physical files are only output by the production build task `npm run build`.\n    publicPath: '/',\n    filename: 'bundle.js'\n  },\n  plugins: [new _webpack2.default.DefinePlugin({\n    'process.env.NODE_ENV': JSON.stringify('development'), // Tells React to build in either dev or prod modes. https://facebook.github.io/react/downloads.html (See bottom)\n    __DEV__: true\n  }), new _webpack2.default.HotModuleReplacementPlugin(), new _webpack2.default.NoErrorsPlugin(), new _htmlWebpackPlugin2.default({ // Create HTML file that includes references to bundled CSS and JS.\n    template: 'src/index.ejs',\n    minify: {\n      removeComments: true,\n      collapseWhitespace: true\n    },\n    inject: true\n  })],\n  module: {\n    loaders: [{ test: /\\.jsx?$/, exclude: /node_modules/, loaders: ['babel'] }, { test: /\\.eot(\\?v=\\d+.\\d+.\\d+)?$/, loader: 'file' }, { test: /\\.woff(2)?(\\?v=[0-9]\\.[0-9]\\.[0-9])?$/, loader: 'url?limit=10000&mimetype=application/font-woff' }, { test: /\\.ttf(\\?v=\\d+\\.\\d+\\.\\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream' }, { test: /\\.svg(\\?v=\\d+\\.\\d+\\.\\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml' }, { test: /\\.(jpe?g|png|gif)$/i, loader: 'file?name=[name].[ext]' }, { test: /\\.ico$/, loader: 'file?name=[name].[ext]' }, { test: /(\\.css|\\.scss)$/, loaders: ['style', 'css?sourceMap', 'postcss', 'sass?sourceMap'] }, { test: /\\.json$/, loader: \"json\" }]\n  },\n  postcss: function postcss() {\n    return [_autoprefixer2.default];\n  }\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2suY29uZmlnLmRldi5qcyJdLCJuYW1lcyI6WyJyZXNvbHZlIiwiZXh0ZW5zaW9ucyIsImRlYnVnIiwiZGV2dG9vbCIsIm5vSW5mbyIsImVudHJ5IiwiX19kaXJuYW1lIiwidGFyZ2V0Iiwib3V0cHV0IiwicGF0aCIsInB1YmxpY1BhdGgiLCJmaWxlbmFtZSIsInBsdWdpbnMiLCJEZWZpbmVQbHVnaW4iLCJKU09OIiwic3RyaW5naWZ5IiwiX19ERVZfXyIsIkhvdE1vZHVsZVJlcGxhY2VtZW50UGx1Z2luIiwiTm9FcnJvcnNQbHVnaW4iLCJ0ZW1wbGF0ZSIsIm1pbmlmeSIsInJlbW92ZUNvbW1lbnRzIiwiY29sbGFwc2VXaGl0ZXNwYWNlIiwiaW5qZWN0IiwibW9kdWxlIiwibG9hZGVycyIsInRlc3QiLCJleGNsdWRlIiwibG9hZGVyIiwicG9zdGNzcyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztrQkFFZTtBQUNiQSxXQUFTO0FBQ1BDLGdCQUFZLENBQUMsRUFBRCxFQUFLLEtBQUwsRUFBWSxNQUFaLEVBQW9CLE9BQXBCO0FBREwsR0FESTtBQUliQyxTQUFPLElBSk07QUFLYkMsV0FBUyxpQkFMSSxFQUtlO0FBQzVCQyxVQUFRLElBTkssRUFNQztBQUNkQyxTQUFPO0FBQ0w7QUFDQSw2QkFGSyxFQUdMLDJDQUhLLEVBSUwsZUFBS0wsT0FBTCxDQUFhTSxTQUFiLEVBQXdCLGNBQXhCLENBSkssQ0FJbUM7QUFKbkMsR0FQTTtBQWFiQyxVQUFRLEtBYkssRUFhRTtBQUNmQyxVQUFRO0FBQ05DLFVBQU0sZUFBS1QsT0FBTCxDQUFhTSxTQUFiLEVBQXdCLE1BQXhCLENBREEsRUFDaUM7QUFDdkNJLGdCQUFZLEdBRk47QUFHTkMsY0FBVTtBQUhKLEdBZEs7QUFtQmJDLFdBQVMsQ0FDUCxJQUFJLGtCQUFRQyxZQUFaLENBQXlCO0FBQ3ZCLDRCQUF3QkMsS0FBS0MsU0FBTCxDQUFlLGFBQWYsQ0FERCxFQUNnQztBQUN2REMsYUFBUztBQUZjLEdBQXpCLENBRE8sRUFLUCxJQUFJLGtCQUFRQywwQkFBWixFQUxPLEVBTVAsSUFBSSxrQkFBUUMsY0FBWixFQU5PLEVBT1AsZ0NBQXNCLEVBQU07QUFDMUJDLGNBQVUsZUFEVTtBQUVwQkMsWUFBUTtBQUNOQyxzQkFBZ0IsSUFEVjtBQUVOQywwQkFBb0I7QUFGZCxLQUZZO0FBTXBCQyxZQUFRO0FBTlksR0FBdEIsQ0FQTyxDQW5CSTtBQW1DYkMsVUFBUTtBQUNOQyxhQUFTLENBQ1AsRUFBQ0MsTUFBTSxTQUFQLEVBQWtCQyxTQUFTLGNBQTNCLEVBQTJDRixTQUFTLENBQUMsT0FBRCxDQUFwRCxFQURPLEVBRVAsRUFBQ0MsTUFBTSwwQkFBUCxFQUFtQ0UsUUFBUSxNQUEzQyxFQUZPLEVBR1AsRUFBQ0YsTUFBTSx1Q0FBUCxFQUFnREUsUUFBUSxnREFBeEQsRUFITyxFQUlQLEVBQUNGLE1BQU0sNEJBQVAsRUFBcUNFLFFBQVEsbURBQTdDLEVBSk8sRUFLUCxFQUFDRixNQUFNLDRCQUFQLEVBQXFDRSxRQUFRLHdDQUE3QyxFQUxPLEVBTVAsRUFBQ0YsTUFBTSxxQkFBUCxFQUE4QkUsUUFBUSx3QkFBdEMsRUFOTyxFQU9QLEVBQUNGLE1BQU0sUUFBUCxFQUFpQkUsUUFBUSx3QkFBekIsRUFQTyxFQVFQLEVBQUNGLE1BQU0saUJBQVAsRUFBMEJELFNBQVMsQ0FBQyxPQUFELEVBQVUsZUFBVixFQUEyQixTQUEzQixFQUFzQyxnQkFBdEMsQ0FBbkMsRUFSTyxFQVNQLEVBQUNDLE1BQU0sU0FBUCxFQUFrQkUsUUFBUSxNQUExQixFQVRPO0FBREgsR0FuQ0s7QUFnRGJDLFdBQVM7QUFBQSxXQUFLLHdCQUFMO0FBQUE7QUFoREksQyIsImZpbGUiOiJ3ZWJwYWNrLmNvbmZpZy5kZXYuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHdlYnBhY2sgZnJvbSAnd2VicGFjayc7XG5pbXBvcnQgSHRtbFdlYnBhY2tQbHVnaW4gZnJvbSAnaHRtbC13ZWJwYWNrLXBsdWdpbic7XG5pbXBvcnQgYXV0b3ByZWZpeGVyIGZyb20gJ2F1dG9wcmVmaXhlcic7XG5pbXBvcnQgcGF0aCBmcm9tICdwYXRoJztcblxuZXhwb3J0IGRlZmF1bHQge1xuICByZXNvbHZlOiB7XG4gICAgZXh0ZW5zaW9uczogWycnLCAnLmpzJywgJy5qc3gnLCAnLmpzb24nXVxuICB9LFxuICBkZWJ1ZzogdHJ1ZSxcbiAgZGV2dG9vbDogJ2V2YWwtc291cmNlLW1hcCcsIC8vIG1vcmUgaW5mbzpodHRwczovL3dlYnBhY2suZ2l0aHViLmlvL2RvY3MvYnVpbGQtcGVyZm9ybWFuY2UuaHRtbCNzb3VyY2VtYXBzIGFuZCBodHRwczovL3dlYnBhY2suZ2l0aHViLmlvL2RvY3MvY29uZmlndXJhdGlvbi5odG1sI2RldnRvb2xcbiAgbm9JbmZvOiB0cnVlLCAvLyBzZXQgdG8gZmFsc2UgdG8gc2VlIGEgbGlzdCBvZiBldmVyeSBmaWxlIGJlaW5nIGJ1bmRsZWQuXG4gIGVudHJ5OiBbXG4gICAgLy8gbXVzdCBiZSBmaXJzdCBlbnRyeSB0byBwcm9wZXJseSBzZXQgcHVibGljIHBhdGhcbiAgICAnLi9zcmMvd2VicGFjay1wdWJsaWMtcGF0aCcsXG4gICAgJ3dlYnBhY2staG90LW1pZGRsZXdhcmUvY2xpZW50P3JlbG9hZD10cnVlJyxcbiAgICBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnc3JjL2luZGV4LmpzJykgLy8gRGVmaW5pbmcgcGF0aCBzZWVtcyBuZWNlc3NhcnkgZm9yIHRoaXMgdG8gd29yayBjb25zaXN0ZW50bHkgb24gV2luZG93cyBtYWNoaW5lcy5cbiAgXSxcbiAgdGFyZ2V0OiAnd2ViJywgLy8gbmVjZXNzYXJ5IHBlciBodHRwczovL3dlYnBhY2suZ2l0aHViLmlvL2RvY3MvdGVzdGluZy5odG1sI2NvbXBpbGUtYW5kLXRlc3RcbiAgb3V0cHV0OiB7XG4gICAgcGF0aDogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJ2Rpc3QnKSwgLy8gTm90ZTogUGh5c2ljYWwgZmlsZXMgYXJlIG9ubHkgb3V0cHV0IGJ5IHRoZSBwcm9kdWN0aW9uIGJ1aWxkIHRhc2sgYG5wbSBydW4gYnVpbGRgLlxuICAgIHB1YmxpY1BhdGg6ICcvJyxcbiAgICBmaWxlbmFtZTogJ2J1bmRsZS5qcydcbiAgfSxcbiAgcGx1Z2luczogW1xuICAgIG5ldyB3ZWJwYWNrLkRlZmluZVBsdWdpbih7XG4gICAgICAncHJvY2Vzcy5lbnYuTk9ERV9FTlYnOiBKU09OLnN0cmluZ2lmeSgnZGV2ZWxvcG1lbnQnKSwgLy8gVGVsbHMgUmVhY3QgdG8gYnVpbGQgaW4gZWl0aGVyIGRldiBvciBwcm9kIG1vZGVzLiBodHRwczovL2ZhY2Vib29rLmdpdGh1Yi5pby9yZWFjdC9kb3dubG9hZHMuaHRtbCAoU2VlIGJvdHRvbSlcbiAgICAgIF9fREVWX186IHRydWVcbiAgICB9KSxcbiAgICBuZXcgd2VicGFjay5Ib3RNb2R1bGVSZXBsYWNlbWVudFBsdWdpbigpLFxuICAgIG5ldyB3ZWJwYWNrLk5vRXJyb3JzUGx1Z2luKCksXG4gICAgbmV3IEh0bWxXZWJwYWNrUGx1Z2luKHsgICAgIC8vIENyZWF0ZSBIVE1MIGZpbGUgdGhhdCBpbmNsdWRlcyByZWZlcmVuY2VzIHRvIGJ1bmRsZWQgQ1NTIGFuZCBKUy5cbiAgICAgIHRlbXBsYXRlOiAnc3JjL2luZGV4LmVqcycsXG4gICAgICBtaW5pZnk6IHtcbiAgICAgICAgcmVtb3ZlQ29tbWVudHM6IHRydWUsXG4gICAgICAgIGNvbGxhcHNlV2hpdGVzcGFjZTogdHJ1ZVxuICAgICAgfSxcbiAgICAgIGluamVjdDogdHJ1ZVxuICAgIH0pXG4gIF0sXG4gIG1vZHVsZToge1xuICAgIGxvYWRlcnM6IFtcbiAgICAgIHt0ZXN0OiAvXFwuanN4PyQvLCBleGNsdWRlOiAvbm9kZV9tb2R1bGVzLywgbG9hZGVyczogWydiYWJlbCddfSxcbiAgICAgIHt0ZXN0OiAvXFwuZW90KFxcP3Y9XFxkKy5cXGQrLlxcZCspPyQvLCBsb2FkZXI6ICdmaWxlJ30sXG4gICAgICB7dGVzdDogL1xcLndvZmYoMik/KFxcP3Y9WzAtOV1cXC5bMC05XVxcLlswLTldKT8kLywgbG9hZGVyOiAndXJsP2xpbWl0PTEwMDAwJm1pbWV0eXBlPWFwcGxpY2F0aW9uL2ZvbnQtd29mZid9LFxuICAgICAge3Rlc3Q6IC9cXC50dGYoXFw/dj1cXGQrXFwuXFxkK1xcLlxcZCspPyQvLCBsb2FkZXI6ICd1cmw/bGltaXQ9MTAwMDAmbWltZXR5cGU9YXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJ30sXG4gICAgICB7dGVzdDogL1xcLnN2ZyhcXD92PVxcZCtcXC5cXGQrXFwuXFxkKyk/JC8sIGxvYWRlcjogJ3VybD9saW1pdD0xMDAwMCZtaW1ldHlwZT1pbWFnZS9zdmcreG1sJ30sXG4gICAgICB7dGVzdDogL1xcLihqcGU/Z3xwbmd8Z2lmKSQvaSwgbG9hZGVyOiAnZmlsZT9uYW1lPVtuYW1lXS5bZXh0XSd9LFxuICAgICAge3Rlc3Q6IC9cXC5pY28kLywgbG9hZGVyOiAnZmlsZT9uYW1lPVtuYW1lXS5bZXh0XSd9LFxuICAgICAge3Rlc3Q6IC8oXFwuY3NzfFxcLnNjc3MpJC8sIGxvYWRlcnM6IFsnc3R5bGUnLCAnY3NzP3NvdXJjZU1hcCcsICdwb3N0Y3NzJywgJ3Nhc3M/c291cmNlTWFwJ119LFxuICAgICAge3Rlc3Q6IC9cXC5qc29uJC8sIGxvYWRlcjogXCJqc29uXCJ9XG4gICAgXVxuICB9LFxuICBwb3N0Y3NzOiAoKT0+IFthdXRvcHJlZml4ZXJdXG59O1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "webpack.config.dev.js"
+      ],
+      "names": [
+        "resolve",
+        "extensions",
+        "debug",
+        "devtool",
+        "noInfo",
+        "entry",
+        "__dirname",
+        "target",
+        "output",
+        "path",
+        "publicPath",
+        "filename",
+        "plugins",
+        "DefinePlugin",
+        "JSON",
+        "stringify",
+        "__DEV__",
+        "HotModuleReplacementPlugin",
+        "NoErrorsPlugin",
+        "template",
+        "minify",
+        "removeComments",
+        "collapseWhitespace",
+        "inject",
+        "module",
+        "loaders",
+        "test",
+        "exclude",
+        "loader",
+        "postcss"
+      ],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;;;kBAEe;AACbA,WAAS;AACPC,gBAAY,CAAC,EAAD,EAAK,KAAL,EAAY,MAAZ,EAAoB,OAApB;AADL,GADI;AAIbC,SAAO,IAJM;AAKbC,WAAS,iBALI,EAKe;AAC5BC,UAAQ,IANK,EAMC;AACdC,SAAO;AACL;AACA,6BAFK,EAGL,2CAHK,EAIL,eAAKL,OAAL,CAAaM,SAAb,EAAwB,cAAxB,CAJK,CAImC;AAJnC,GAPM;AAabC,UAAQ,KAbK,EAaE;AACfC,UAAQ;AACNC,UAAM,eAAKT,OAAL,CAAaM,SAAb,EAAwB,MAAxB,CADA,EACiC;AACvCI,gBAAY,GAFN;AAGNC,cAAU;AAHJ,GAdK;AAmBbC,WAAS,CACP,IAAI,kBAAQC,YAAZ,CAAyB;AACvB,4BAAwBC,KAAKC,SAAL,CAAe,aAAf,CADD,EACgC;AACvDC,aAAS;AAFc,GAAzB,CADO,EAKP,IAAI,kBAAQC,0BAAZ,EALO,EAMP,IAAI,kBAAQC,cAAZ,EANO,EAOP,gCAAsB,EAAM;AAC1BC,cAAU,eADU;AAEpBC,YAAQ;AACNC,sBAAgB,IADV;AAENC,0BAAoB;AAFd,KAFY;AAMpBC,YAAQ;AANY,GAAtB,CAPO,CAnBI;AAmCbC,UAAQ;AACNC,aAAS,CACP,EAACC,MAAM,SAAP,EAAkBC,SAAS,cAA3B,EAA2CF,SAAS,CAAC,OAAD,CAApD,EADO,EAEP,EAACC,MAAM,0BAAP,EAAmCE,QAAQ,MAA3C,EAFO,EAGP,EAACF,MAAM,uCAAP,EAAgDE,QAAQ,gDAAxD,EAHO,EAIP,EAACF,MAAM,4BAAP,EAAqCE,QAAQ,mDAA7C,EAJO,EAKP,EAACF,MAAM,4BAAP,EAAqCE,QAAQ,wCAA7C,EALO,EAMP,EAACF,MAAM,qBAAP,EAA8BE,QAAQ,wBAAtC,EANO,EAOP,EAACF,MAAM,QAAP,EAAiBE,QAAQ,wBAAzB,EAPO,EAQP,EAACF,MAAM,iBAAP,EAA0BD,SAAS,CAAC,OAAD,EAAU,eAAV,EAA2B,SAA3B,EAAsC,gBAAtC,CAAnC,EARO,EASP,EAACC,MAAM,SAAP,EAAkBE,QAAQ,MAA1B,EATO;AADH,GAnCK;AAgDbC,WAAS;AAAA,WAAK,wBAAL;AAAA;AAhDI,C",
+      "file": "webpack.config.dev.js",
+      "sourceRoot": "/home/app",
+      "sourcesContent": [
+        "import webpack from 'webpack';\nimport HtmlWebpackPlugin from 'html-webpack-plugin';\nimport autoprefixer from 'autoprefixer';\nimport path from 'path';\n\nexport default {\n  resolve: {\n    extensions: ['', '.js', '.jsx', '.json']\n  },\n  debug: true,\n  devtool: 'eval-source-map', // more info:https://webpack.github.io/docs/build-performance.html#sourcemaps and https://webpack.github.io/docs/configuration.html#devtool\n  noInfo: true, // set to false to see a list of every file being bundled.\n  entry: [\n    // must be first entry to properly set public path\n    './src/webpack-public-path',\n    'webpack-hot-middleware/client?reload=true',\n    path.resolve(__dirname, 'src/index.js') // Defining path seems necessary for this to work consistently on Windows machines.\n  ],\n  target: 'web', // necessary per https://webpack.github.io/docs/testing.html#compile-and-test\n  output: {\n    path: path.resolve(__dirname, 'dist'), // Note: Physical files are only output by the production build task `npm run build`.\n    publicPath: '/',\n    filename: 'bundle.js'\n  },\n  plugins: [\n    new webpack.DefinePlugin({\n      'process.env.NODE_ENV': JSON.stringify('development'), // Tells React to build in either dev or prod modes. https://facebook.github.io/react/downloads.html (See bottom)\n      __DEV__: true\n    }),\n    new webpack.HotModuleReplacementPlugin(),\n    new webpack.NoErrorsPlugin(),\n    new HtmlWebpackPlugin({     // Create HTML file that includes references to bundled CSS and JS.\n      template: 'src/index.ejs',\n      minify: {\n        removeComments: true,\n        collapseWhitespace: true\n      },\n      inject: true\n    })\n  ],\n  module: {\n    loaders: [\n      {test: /\\.jsx?$/, exclude: /node_modules/, loaders: ['babel']},\n      {test: /\\.eot(\\?v=\\d+.\\d+.\\d+)?$/, loader: 'file'},\n      {test: /\\.woff(2)?(\\?v=[0-9]\\.[0-9]\\.[0-9])?$/, loader: 'url?limit=10000&mimetype=application/font-woff'},\n      {test: /\\.ttf(\\?v=\\d+\\.\\d+\\.\\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},\n      {test: /\\.svg(\\?v=\\d+\\.\\d+\\.\\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'},\n      {test: /\\.(jpe?g|png|gif)$/i, loader: 'file?name=[name].[ext]'},\n      {test: /\\.ico$/, loader: 'file?name=[name].[ext]'},\n      {test: /(\\.css|\\.scss)$/, loaders: ['style', 'css?sourceMap', 'postcss', 'sass?sourceMap']},\n      {test: /\\.json$/, loader: \"json\"}\n    ]\n  },\n  postcss: ()=> [autoprefixer]\n};\n"
+      ]
+    },
+    "mtime": 1479581235000
+  },
+  "{\"filename\":\"/home/app/src/components/emptyTest.spec.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/home/app/src/components\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.17.0:test": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/home/app/src/components/emptyTest.spec.js",
+      "filenameRelative": "/home/app/src/components/emptyTest.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "emptyTest.spec.js",
+      "sourceFileName": "emptyTest.spec.js",
+      "sourceRoot": "/home/app/src/components",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/home/app/src/components",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "emptyTest.spec"
+    },
+    "ignored": false,
+    "code": "// Must have at least one test file in this directory or Mocha will throw an error.\n\"use strict\";\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVtcHR5VGVzdC5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6ImVtcHR5VGVzdC5zcGVjLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2FwcC9zcmMvY29tcG9uZW50cyIsInNvdXJjZXNDb250ZW50IjpbIi8vIE11c3QgaGF2ZSBhdCBsZWFzdCBvbmUgdGVzdCBmaWxlIGluIHRoaXMgZGlyZWN0b3J5IG9yIE1vY2hhIHdpbGwgdGhyb3cgYW4gZXJyb3IuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "emptyTest.spec.js"
+      ],
+      "names": [],
+      "mappings": "AAAA",
+      "file": "emptyTest.spec.js",
+      "sourceRoot": "/home/app/src/components",
+      "sourcesContent": [
+        "// Must have at least one test file in this directory or Mocha will throw an error."
+      ]
+    },
+    "mtime": 1479581400000
+  }
+}
