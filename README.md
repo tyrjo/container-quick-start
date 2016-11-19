@@ -21,3 +21,8 @@ Provides a containerized development environment with the following features:
    and the yarn packages are cached, we simply always run yarn every time the container starts. Because the entire
    directory is mounted as a volume mount, the first run will populate the .cache on the host filesystem, and
    subsequent runs will have .cache available from the volume mount.
+   
+## TODO
+1. Fix react
+1. Figure out how to run NOT as root, yet also get volume mount. Consider using
+   [volume containers](https://docs.docker.com/engine/tutorials/dockervolumes/).

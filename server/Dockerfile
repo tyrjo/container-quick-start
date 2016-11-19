@@ -10,6 +10,7 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     apt-get update && apt-get install yarn
 
 COPY . $HOME/
+RUN mkdir node_modules
 RUN chown -R app:app $HOME
 
 #USER app
@@ -19,7 +20,7 @@ RUN chown -R app:app $HOME
 #USER root
 #COPY . $HOME/
 #RUN chown -R app:app $HOME/*
-USER app
+#USER app
 WORKDIR $HOME/
 #RUN chown -R app:app $HOME
 #RUN yarn install
