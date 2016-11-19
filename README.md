@@ -23,6 +23,7 @@ Provides a containerized development environment with the following features:
    subsequent runs will have .cache available from the volume mount.
    
 ## TODO
+1. Containerize react-slingshot
 1. Fix react
 1. Figure out how to run NOT as root, yet also get volume mount. Consider using
    [volume containers](https://docs.docker.com/engine/tutorials/dockervolumes/).
