@@ -1,0 +1,14 @@
+version: "2.0"
+
+services:
+
+  server:
+    build: ./server
+    command: bash -c "yarn install && node_modules/.bin/nodemon npm start"
+    environment:
+      NODE_ENV: development
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./server:/home/app/
+      - /home/app/node_modules
